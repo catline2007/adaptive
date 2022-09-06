@@ -21,14 +21,26 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 120px;
     color: var(--bg-color, #FFFFFF);
+}
+
+.header__logo {
+    width: 70px;
+    height: 70px;
+}
+
+.header__logo img{
+    width: 100%;
+    height: 100%;
 }
 
 .header__phone {
     font-weight: 400;
     font-size: 23.85px;
     line-height: 28px;
+    margin-bottom: 2.85px;
 }
 
 .header__text {
@@ -82,6 +94,11 @@
 
     .header__phone-mobile {
         display: block;
+    }
+
+    .header__logo {
+        width: 30px;
+        height: 30px;
     }
 
 }

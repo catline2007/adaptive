@@ -8,6 +8,13 @@
 
 @font-face {
     font-family: 'Roboto';
+    src: local('Roboto'), local('Roboto-Regular'), local('Roboto Regular'), url('../fonts/Roboto-Medium.woff2') format('woff2'),
+        url('../fonts/Roboto-Medium.woff') format('woff');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Roboto';
     src: local('Roboto'), local('Roboto-Bold'), local('Roboto Bold'), url('../fonts/Roboto-Bold.woff2') format('woff2'),
         url('../fonts/Roboto-Bold.woff') format('woff');
     font-weight: 700;
@@ -32,7 +39,7 @@ html {
 }
 
 body {
-    max-width: 1400px;
+    max-width: 1600px;
     display: block;
     font-family: 'Roboto', serif;
     font-weight: 400;
@@ -83,7 +90,7 @@ h1 {
 h2 {
     font-weight: 700;
     font-size: 35px;
-    line-height: 41px;
+    line-height: 41,02px;
     margin-bottom: 17px;
     }
 

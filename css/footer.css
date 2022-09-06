@@ -12,6 +12,11 @@
     color: var(--bg-color, #FFFFFF);
 }
 
+.footer__container-logo img{
+    width: 70px;
+    height: 70px;
+}
+
 .footer__phone {
     font-weight: 400;
     font-size: 24px;
@@ -21,12 +26,12 @@
 .footer__text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 18.75px;
     text-decoration: underline;
 }
 
 .footer__text-small {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 12px;
     line-height: 17px;
     text-align: left;

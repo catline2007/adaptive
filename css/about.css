@@ -23,11 +23,11 @@
     font-size: 18px;
     line-height: 25px;
     margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 .advantages {
-    width: 900px;
+    width: 934px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
