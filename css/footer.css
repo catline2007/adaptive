@@ -1,7 +1,7 @@
 .footer {
-    width: 100%;
+    max-width: 100%;
     background-color: #2F324B;
-    padding: 45px 200px;
+    padding: 45px 0;
 }
 
 .footer__container {
@@ -10,11 +10,15 @@
     justify-content: space-between;
     align-items: center;
     color: var(--bg-color, #FFFFFF);
+    width: 1200px;
+    margin: auto;
 }
 
-.footer__container-logo img{
-    width: 70px;
-    height: 70px;
+.footer__container-logo {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
 }
 
 .footer__phone {
@@ -35,14 +39,7 @@
     font-size: 12px;
     line-height: 17px;
     text-align: left;
-}
-
-.footer__container-logo {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 220px;
-    gap: 20px;
+    white-space: pre-line;
 }
 
 .footer__phone-mobile {
@@ -51,8 +48,11 @@
 
 @media (max-width: 1200px) {
     .footer {
-        height: 158px;
-        padding: 49px 30px;
+        padding: 37px 30px 45px 30px;
+    }
+
+    .footer__container {
+        width: 100%;
     }
 }
 

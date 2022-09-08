@@ -39,7 +39,6 @@ html {
 }
 
 body {
-    max-width: 1600px;
     display: block;
     font-family: 'Roboto', serif;
     font-weight: 400;
@@ -120,7 +119,7 @@ h2 {
 
     .container {
         width: 100%;
-        padding: 0 100px;
+        padding: 0 76px;
     }
 
     h1 {

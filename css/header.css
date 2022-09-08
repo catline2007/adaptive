@@ -1,9 +1,8 @@
 .section__up {
     background: linear-gradient(to top, rgba(47, 50, 75, 0.85), rgba(47, 50, 75, 0.85)), url('../img/stag-office-mockup.jpg');
     background-size: cover;
-    background-position: left;
     background-repeat: no-repeat;
-    padding: 40px 200px 120px 200px;
+    padding: 39px 200px 120px 200px;
     color: var(--light-font-color, rgba(255, 255, 255, 0.86));;
 }
 
@@ -11,11 +10,11 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 31px;
-    margin-bottom: 90px;
+    margin-bottom: 87px;
 }
 
 .header {
-    width: 100%;
+    max-width: 1200px;
     height: 68px;
     margin: auto;
     display: flex;
@@ -27,13 +26,13 @@
 }
 
 .header__logo {
-    width: 70px;
-    height: 70px;
+    width: 68px;
+    height: 68px;
 }
 
-.header__logo img{
-    width: 100%;
-    height: 100%;
+.header__phone-desc {
+    display: flex;
+    flex-direction: column;
 }
 
 .header__phone {
@@ -41,6 +40,8 @@
     font-size: 23.85px;
     line-height: 28px;
     margin-bottom: 2.85px;
+    text-decoration: none;
+    color: var(--bg-color, #FFFFFF);
 }
 
 .header__text {
@@ -48,6 +49,7 @@
     font-size: 16px;
     line-height: 19px;
     text-decoration: underline;
+    color: var(--bg-color, #FFFFFF);
 }
 
 .header__phone-mobile {
@@ -62,6 +64,8 @@
 
     .section__up {
         padding: 26px 30px 70px 30px;
+        background-size: contain cover;
+        background: linear-gradient(to top, rgba(47, 50, 75, 0.85), rgba(47, 50, 75, 0.85)), url('../img/stag-office-mockup_1024.jpg');
     }
 
     .description {
@@ -69,9 +73,32 @@
         line-height: 25px;
         margin-bottom: 60px;
     }
+
+    .header__logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .header__phone {
+        font-size: 21px;
+        line-height: 28px;
+    }
+
+    .header__text {
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+    .header__h1 {
+        margin-bottom: 28px;
+    }
+
+    .description {
+        margin-bottom: 57px;
+    }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 720px) {
     .header {
         height: 30px;
         margin-bottom: 65px;
@@ -90,6 +117,7 @@
     .section__up {
         padding: 15px 15px 65px 15px;
         color: var(--light-font-color, rgba(255, 255, 255, 0.86));;
+        
     }
 
     .header__phone-mobile {

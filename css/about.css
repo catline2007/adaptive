@@ -3,14 +3,14 @@
 }
 
 .about-us__heading {
-    margin-bottom: 25px;
+    margin-bottom: 22px;
 }
 
 .about-us {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 23px;
+    gap: 22px;
     font-weight: 500;
     font-size: 22px;
     line-height: 26px;
@@ -32,6 +32,7 @@
     flex-direction: row;
     justify-content: space-between;
     margin: auto;
+    list-style-type: none;
 }
 
 .advantages__item {
@@ -68,7 +69,6 @@
     .advantages {
         width: 100%;
         flex-wrap: wrap;
-        justify-content: center;
     }
 
     .advantages__item_number {
@@ -93,8 +93,15 @@
     }
 
     .about-us__description {
-        width: 100%;
+        width: 670px;
+        font-size: 16px;
+        line-height: 23px;
     }
+
+    .about-us {
+        margin-bottom: 28px;
+    }
+
 }
 
 @media (max-width: 480px) {
